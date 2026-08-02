@@ -1,52 +1,44 @@
 # Coraline Açık Hava Sineması
 
-Coraline temalı bir açık hava sineması etkinliği için hazırlanmış responsive landing page projesi yaptım.
+Coraline temalı açık hava sineması etkinliği için geliştirilmiş, çok sayfalı bir web sitesi yaptım.
 
-## Projenin Amacı
+## Canlı Site
 
-Bu projeyi, Tailwind CSS'in utility-first çalışma mantığını öğrenmek ve hazır yardımcı sınıflarla responsive bir landing page geliştirmek amacıyla hazırladım.
+https://coraline-open-air-cinema.vercel.app
+
+## Proje Özellikleri
+
+- Coraline temalı özgün ve responsive tasarım
+- Film hakkında bilgi sayfası
+- Etkinlik programı ve mekân bilgileri
+- Bilet seçimi ve rezervasyon formu
+- Birden fazla kişi için katılımcı bilgileri
+- Ödeme bilgileri için ön yüz formu
+- Rezervasyon kodu oluşturma
+- Biletlerim sayfası
+- Sıkça sorulan sorular bölümü
+- İletişim formu
+- Tüm sayfalarda ortak navigasyon ve footer
+- Mobil menü desteği
+- Supabase ile rezervasyon ve iletişim verilerinin kaydedilmesi
+- Vercel üzerinden canlı yayın
 
 ## Kullanılan Teknolojiler
 
 - React
 - Vite
 - Tailwind CSS
-- HTML / JSX
-- SVG ikonlar
+- React Router
+- Supabase
+- Vercel
 
-## Sayfa Bölümleri
+## Sayfalar
 
-- Coraline temalı hero alanı
+- Ana sayfa
 - Film hakkında
 - Etkinlik bilgileri
-- Bilet ve rezervasyon alanı
-- Organizatör ve sosyal medya bilgileri
-- Responsive footer
+- Bilet seçimi ve rezervasyon
+- Oluşturulan rezervasyonlar
+- Sıkça sorulan sorular
+- İletişim formu
 
-## Tailwind CSS ile Öğrendiklerim
-
-- Flexbox ve Grid kullanımı
-- Responsive breakpoint sınıfları
-- Renk, boşluk ve yazı sınıfları
-- Hover ve transition efektleri
-- Özel animasyon sınıfları
-- Mobil uyumlu tasarım
-- Tailwind Vite eklentisinin kurulumu
-
-## En Zorlandığım Kısım
-
-Projede en çok Coraline başlığının tasarımında zorlandım. C ve E harflerinde örümcek ağı detayları oluşturdum. Bu özel görselleri Tailwind CSS ile doğru boyutlandırmak ve başlıktaki diğer harflerle hizalamak birkaç deneme gerektirdi.
-
-Ayrıca tasarımın masaüstü ve mobil ekranlarda bozulmadan görünmesi için responsive sınıfları düzenlemek zorlayıcıydı. `sm`, `md`, `lg` ve `xl` breakpointlerini kullanarak görsel boyutlarını, bölüm yerleşimlerini ve butonların konumlarını farklı ekranlara uyarladım.
-
-## Sonuç
-
-Bu proje sayesinde Tailwind CSS'in utility-first mantığını, responsive tasarım sınıflarını ve hover/animasyon efektlerini daha iyi öğrendim.
-
-## Çalıştırma
-
-Projeyi bilgisayarınıza indirdikten sonra:
-
-```bash
-npm install
-npm run dev
